@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
@@ -33,13 +32,17 @@
             text-shadow: 2px 2px 8px #361701;
         }
 
+    
+
         .box{
+            text-shadow: 2px 2px 8px #000000;
             background-color: #361701;
             font-size: 2rem;
             padding: 20px;
             margin: 10px;
             text-align: left;
             max-width: 600px;
+            box-shadow: 10px 5px 5px black;
         }
 
         .box p{
@@ -48,12 +51,20 @@
         }
 
         .container{
-            position: relative;
-            width: fit-content;
+            display: grid;
+            grid-template-columns: .5fr;
+            grid-template-rows: .5fr;
+            
         }
 
         .linkBox{
+            
         }
+
+        Footer {
+        background-color: #361701;
+            font-size: 2em;
+    }  
     </style>
     
 </head>
@@ -61,7 +72,7 @@
     <br><br><center><h1>Teatro de Hastur </h1></center>
     <div class="box">
         <h2 class="abc">Introdução ao Mundo</h2>
-        <p>&copy; Após a quinta guerra mundial erradicar inúmeras informações sagradas para a humanidade, e a fazendo retroceder técnológicamente, cientistas em um laboratório escondido em algum lugar da América do Norte fizeram um experimento  que falhou severamente. 
+        <p>Após a quinta guerra mundial erradicar inúmeras informações sagradas para a humanidade, e a fazendo retroceder técnológicamente, cientistas em um laboratório escondido em algum lugar da América do Norte fizeram um experimento  que falhou severamente. 
         </p>
         <p> A falha ocasionou em um colossal portal vermelho aparecendo, que transformou a América do Norte em nada além de um buraco; secou a América do Sul e Central, as transformando em um deserto de sangue; assolou a África com uma noite eterna; estilhaçou a Oceania, a transformando em várias ilhas; transformou todos os mares em um lugar impassável, com ondas que chegam frequentemente aos 60 metros e uma constante tempestade; e fez o clima da Europa e Ásia virar um caos impossível de prever. 
         </p>
@@ -74,23 +85,26 @@
     <div class="container">
 
         <div class="box linkBox">
-            <a href="">Cu</a>
+            <a href="Grupos conhecidos.html">Grupos conhecidos</a>
         </div>
         <div class="box linkBox">
 
-            <a href="">Cu</a>
+            <a href="Criaturas.html">Criaturas</a>
         </div>
         <div class="box linkBox">
-            <a href="">Cu</a>
+            <a href="Entidades.html">Entidades</a>
             
         </div>
         <div class="box linkBox">
-            <a href="">Cu</a>
+            <a href="Anomalias.html">Anomalias</a>
 
         </div>
     </div>
 
-
+    <footer> 
+        <p> Murilo &copy; 2023</p>
+        
+    </footer>
 
 
 </body>
