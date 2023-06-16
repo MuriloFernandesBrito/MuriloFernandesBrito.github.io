@@ -1,12 +1,12 @@
 
 *{
-    color: #FFD700;
+    color: var(--color);
     font-family: 'Rubik Wet Paint', cursive;
     margin: 0;
     padding: 0;
 }
 body{
-    background-image: url(https://images7.alphacoders.com/869/869734.jpg);
+    background-image: var(--backUrl);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size:cover;
@@ -20,7 +20,7 @@ body{
 
 h1{
     font-size: 10em;
-    text-shadow: 2px 2px 8px #361701;
+    text-shadow: 2px 2px 8px var(--shadowColor);
 }
 
 .wrapper{
@@ -29,9 +29,8 @@ h1{
 
 
 .box{
-    color: #DFC98A;
     text-shadow: 2px 2px 8px #000000;
-    background-color: #BDA55D;
+    background-color: var(--boxBack);
     font-size: 2rem;
     padding: 20px;
     margin: 10px;
@@ -43,7 +42,7 @@ h1{
 
 
 .box p{
-    color: white;
+    color: var(--pColor);
     text-shadow: 2px 2px 8px #000;
 }
 
@@ -55,12 +54,8 @@ h1{
   margin-left: auto;
 }
 
-.linkBox{
-
-}
-
 footer {
-  background-color: #361701;
+  background-color: var(--boxBack);
   font-size: 2em;
   margin-top: auto;
 }
